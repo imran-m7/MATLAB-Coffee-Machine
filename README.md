@@ -38,5 +38,6 @@ FINALproject.mlapp: The main program file.
 coffeeQuantities.mat: Initial coffee stock data.
 
 coinQuantities.mat: Initial coin inventory data.
-3. Run the Program: Open coffeeMachine.m in MATLAB and execute the file to start the simulation.
+
+3. Run the Program: Open FINALproject.mlapp in MATLAB and execute the file to start the simulation.
 4. Enjoy the Coffee Machine Simulation: Select your coffee type, watch the pouring animation, and receive your change while the system manages the inventory in real-time.

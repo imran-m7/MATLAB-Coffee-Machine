@@ -14,8 +14,11 @@ The primary objective of this project is to create an interactive and realistic 
 - **Change Return System**- A dedicated function calculates and dispenses the correct change based on the user's payment and coffee price, ensuring smooth transactions.
 
 - **Inventory Management**- Coffee quantities and coin inventories are managed using two external files:
-1. coffeeQuantities.mat: Tracks the remaining quantities of each coffee type.
-2. coinQuantities.mat: Tracks the available coins for making change.
+  
+coffeeQuantities.mat: Tracks the remaining quantities of each coffee type.
+
+coinQuantities.mat: Tracks the available coins for making change.
+
 The program automatically updates these files after each transaction.
 
 - **Error Handling**- If a selected coffee is out of stock or there aren’t enough coins to provide change, the system notifies the user and prompts them to make a different selection or cancel the transaction.
@@ -29,8 +32,11 @@ The project is implemented entirely in MATLAB, utilizing its powerful file handl
 
 1. Verify Prerequisites: Ensure MATLAB is installed on your system.
 2. Download Files: Download the required files from the repository:
+
 FINALproject.mlapp: The main program file.
+
 coffeeQuantities.mat: Initial coffee stock data.
+
 coinQuantities.mat: Initial coin inventory data.
 3. Run the Program: Open coffeeMachine.m in MATLAB and execute the file to start the simulation.
 4. Enjoy the Coffee Machine Simulation: Select your coffee type, watch the pouring animation, and receive your change while the system manages the inventory in real-time.

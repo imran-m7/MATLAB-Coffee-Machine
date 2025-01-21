@@ -15,11 +15,11 @@ The primary objective of this project is to create an interactive and realistic 
 
 - **Inventory Management**- Coffee quantities and coin inventories are managed using two external files:
   
-coffeeQuantities.mat: Tracks the remaining quantities of each coffee type.
+    coffeeQuantities.mat: Tracks the remaining quantities of each coffee type.
 
-coinQuantities.mat: Tracks the available coins for making change.
+    coinQuantities.mat: Tracks the available coins for making change.
 
-The program automatically updates these files after each transaction.
+    The program automatically updates these files after each transaction.
 
 - **Error Handling**- If a selected coffee is out of stock or there aren’t enough coins to provide change, the system notifies the user and prompts them to make a different selection or cancel the transaction.
 
